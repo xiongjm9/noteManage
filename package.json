@@ -1,0 +1,33 @@
+{
+  "name": "personal-learning-cabin",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev --port 3000 --host 0.0.0.0",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare",
+    "lint": "nuxt typecheck"
+  },
+  "dependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.0",
+    "@tailwindcss/vite": "^4.2.2",
+    "@vueuse/core": "^10.9.0",
+    "@vueuse/motion": "^2.1.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.378.0",
+    "nuxt": "^3.11.2",
+    "tailwind-merge": "^2.3.0",
+    "vue": "^3.4.27",
+    "vue-router": "^4.3.2"
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "latest",
+    "@nuxt/typescript-build": "^3.0.2",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.4.5"
+  }
+}
